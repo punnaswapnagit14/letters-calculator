@@ -1,0 +1,43 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: coulmn;
+  justify-content: center;
+  align-items: center;
+}
+.text-con {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.typing {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #e4e7eb;
+  height: 25px;
+  outline: none;
+}
+.button {
+  color: #219a6f;
+  font-size: 16px;
+  height: 60px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: none;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.letter-calculator {
+  height: 100px;
+  width: 250px;
+}
